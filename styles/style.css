@@ -86,7 +86,9 @@
     margin-bottom: 32px;
 }
 
-.heading-sec-2, .ins-heading, .T-title {
+.heading-sec-2,
+.ins-heading,
+.T-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -115,7 +117,8 @@
     text-align: left;
 }
 
-.cmn-para, .t-description {
+.cmn-para,
+.t-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -164,13 +167,86 @@ iframe {
     border-radius: 16px;
 
 }
-.ins-heading{
+
+.ins-heading {
     margin-top: 80px;
     margin-bottom: 24px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.targets{
+
+.targets {
     margin-top: 80px;
+}
+
+.skill-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.skill-description {
+    margin-bottom: 10px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.anchor-skill {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.skill-1 {
+    width: 280px;
+    height: 220px;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.skill-2 {
+    width: 280px;
+    height: 220px;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill-3 {
+    width: 280px;
+    height: 220px;
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 10px;
+    text-align: left;
 }
