@@ -86,7 +86,7 @@
     margin-bottom: 32px;
 }
 
-.heading-sec-2, .ins-heading {
+.heading-sec-2, .ins-heading, .T-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -115,7 +115,7 @@
     text-align: left;
 }
 
-.cmn-para {
+.cmn-para, .t-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -167,4 +167,10 @@ iframe {
 .ins-heading{
     margin-top: 80px;
     margin-bottom: 24px;
+}
+.text-center{
+    text-align: center;
+}
+.targets{
+    margin-top: 80px;
 }
