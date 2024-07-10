@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 .content {
     text-align: center;
     padding: 25px 220px 44px 220px;
@@ -6,11 +10,18 @@
 .bg {
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
-    width: 1510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 652px;
 }
 
+.div-content {
+    margin-top: 50px;
+}
+
 .heading-bg {
+    padding-bottom: 20px;
     /* font layout */
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -24,7 +35,8 @@
 
 }
 
-.content-des {
+.content-des,
+.des-sec-2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -36,7 +48,9 @@
 
 }
 
+
 .bg-btn {
+    margin-top: 50px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     width: 200px;
@@ -51,6 +65,80 @@
     text-align: center;
 }
 
-.content-img {
-    /* margin-top: 25px; */
+/* second section  */
+.section-2 {
+    margin-top: 75px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.sec-2-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
+}
+
+.heading-sec-2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sec-2-main1 {
+    text-align: left;
+    width: 470px;
+}
+
+.section-2-bg {
+    margin-bottom: 45px;
+}
+
+.cmn-heading {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cmn-para {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.cmn-btn-LM {
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
