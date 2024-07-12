@@ -295,7 +295,7 @@ iframe {
 }
 
 .container {
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
